@@ -1,0 +1,154 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+    
+}
+div{
+    display: flex;
+   flex-direction: column;
+}
+h1{
+    padding-left:5% ;
+    color:hsl(24, 5%, 18%);
+}
+.omelette p{
+    padding: 5px 30px 5px 30px;
+}
+h1,h2{
+    font-family: YoungSerif-Regular;
+    font-weight: 400;
+}
+h3,p,ul,ol,td{
+    font-family: Outfit-VariableFont_wght;
+}
+p,ul,ol,td{
+    color: hsl(30, 10%, 34%);
+}
+h2{
+    color:hsl(14, 45%, 36%);
+    padding-left:5% ;
+}
+ .pre-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 0px 5px 20px;
+ }
+ .pre-time li {
+    padding:5px 30px 5px 15px;
+ }
+ 
+
+h3{
+    
+    color: hsl(332, 51%, 32%);
+    padding-left: 10%;
+}
+.image{
+    width:100%;
+    height:auto;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.pre-time ul{
+    margin: 0px 30px 0px 20px;
+
+}
+.Ingredients li{
+    padding:5px 30px 7px 20px;
+}
+.Instructions li{
+    padding:5px 15px 5px 5px;
+}
+ol{
+    counter-reset: li;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.Instructions{
+    padding:5px 30px 5px 20px;
+}
+.Nutrition {
+    padding-left:5% ;
+}
+.Nutrition p{
+    padding:0px 30px 0px 20px;
+}
+.value{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+    @font-face {
+    font-family:YoungSerif-Regular ;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+}
+@font-face{
+    font-family:Outfit-VariableFont_wght ;
+    src:url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+    font-weight:400;
+}
+hr{
+    width:90% ;
+    border:1px solid hsl(30, 54%, 90%);
+}
+td{
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding: 10px 0px 10px 0px;
+}
+.attribution{
+    text-align: center;
+    color: black;
+    padding-top: 45px;
+    
+}
+.nutri-table{
+    width: 80%;
+    padding: 0px 10% 0px 10%;
+}
+@media(min-width: 800px) {
+
+.image img{
+    width: 90%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+
+}
+.image{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 2em;
+}
+p,ul,ol,td{
+    font-size: 1.5em;
+}
+.omelette p{
+    padding: 0px 200px 0px 80px;
+}
+p,ul,ol{
+    padding: 0px 200px 0px 120px;
+}
+.pre-time{
+    display: inline;
+    width: 80%;
+    height: auto;
+    display: flex;
+    position:relative;
+    left: 10%;
+}
+}
